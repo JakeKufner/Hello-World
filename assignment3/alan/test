@@ -1,0 +1,38 @@
+#!/usr/bin/env python2
+import sys
+import base64
+
+
+#return = ord(cleartext[i]) ^ ord(key[i % len(key)])
+
+#first = ord('5')
+#second = ord('A')
+#print("first = ", first)
+#print("second = ", second)
+#combo = first ^ second
+#print("combo = ", combo)
+#print("----------------")
+#print(3%5)
+#key = 42
+
+
+with open(sys.argv[1], 'rb') as f:
+    message = f.read()
+
+#def encode(text):
+#    return base64.encodestring(text)
+
+def decode(text):
+    return base64.decodestring(text)
+
+goodLuck = decode(message)
+
+with open ("hereWeGo.txt", 'wb') as f:
+    f.write(goodLuck)
+
+count = 1
+for char in goodLuck:
+    print(count, ": Char is:", char)
+    print("hex value is", char.encode("hex"))
+    count += 1
+print(len(goodLuck))

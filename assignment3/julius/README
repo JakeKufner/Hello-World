@@ -1,0 +1,16 @@
+Jake Kufner
+1207240823
+Plaintext:
+y recover their losses. There is a debate concerning Avaricum in the general council, whether they should decide that it should be burnt or defended. The Bituriges threw themselves at the feet of all the Gauls, and entreat that they should not be compelled to set fire with their own hands to the fairest city of almost the whole of Gaul, which was both a protection and ornament to the state; they say that "they could easily defend it, owing to the nature of the ground, for, being enclosed almost on every side by a river and a marsh, it had only one entrance, and that very narrow." Permission being granted to them at their earnest request, Vercingetorix at first dissuades them from it, but afterwards concedes the point, owing to their entreaties and the compassion of the soldiers. A proper garrison is selected for the town.
+
+XVI.—Vercingetorix follows closely upon Caesar by shorter marches, and selects for his camp a place defended by woods and marshes, at the distance of fifteen miles from Avaricum. There he received intelligence by trusty scouts, every hour in the day, of what was going on at Avaricum, and ordered whatever he wished to be done; he closely watched all our expeditions for corn and forage, and whenever they were compelled to go to a greater distance, he attacked them when dispersed, and inflicted severe loss upon them; although the evil was remedied by our men, as far as precautions could be taken, by going forth at irregular times, and by different ways.
+
+XVII.—Caesar pitching his camp at that side of the town which was not defended by the river and marsh, and had a very narrow approach, as we have mentioned, began to raise the vineae and erect two towers; for the nature of the place prevented him from drawing a line of circumvallation. He never ceased to importune the Boii and Aedui for supplies of corn; of whom the one [the Aedui], because they were acting with no zeal, did not aid him much; the others [the Boii], as their resources were not gre
+
+Source of the plaintext: Caesar' Gallic War: An Account of Caesar's Campaign in Celtic Gaul
+
+How to use my code:
+My code takes an input file (the encrypted text) and a key value, and runs it through the same encrypt/decrpytion algorithm that was used to create the encrypted message.  My code first takes the encrypted message and write it to a variable called "message" and uses this variable in the decryption, along with the provided key.
+
+How I broke the encryption:
+My spies found the function that was used to create encrypted message, so this is where I started.  Since the function encrypts and decrypts the message based on a key, I figured I would try and brute force it.  This could be quick or take a lot of time. I ran my code 256 times incrementing the key each time and found that 76 gave me a partially decoded message, but 108 gave me a fully decoded message. 
