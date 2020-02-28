@@ -1,0 +1,7 @@
+INSERT KEY selina foobar
+ROTATE KEY selina
+ENTER HOUSE selina
+LEAVE HOUSE selina
+ROTATE KEY selina
+ROTATE KEY selina
+WHO'S INSIDE?

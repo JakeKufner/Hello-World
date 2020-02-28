@@ -1,0 +1,94 @@
+WHO'S THERE 
+LEAVE IT tom 
+ENTER INSIDE sam 
+PUT KEY officer POLICE_SECRET_KEY 
+ROTATE THE zack 
+ENTER INSIDE zack 
+ROTATE THE officer 
+ENTER INSIDE officer 
+ROTATE THE foobar 
+ROTATE THE selina 
+PUT KEY selina foobar 
+ROTATE THE tom 
+ENTER INSIDE selina 
+ROTATE THE selina 
+ENTER INSIDE tom 
+WHO'S THERE 
+ENTER INSIDE selina 
+PUT KEY selina foobar 
+ROTATE THE selina 
+ENTER INSIDE tom 
+WHO'S THERE 
+ENTER INSIDE selina 
+WHO'S THERE 
+PUT KEY sam foobar 
+ROTATE THE sam 
+ENTER INSIDE sam 
+WHO'S THERE 
+ROTATE THE tom 
+PUT KEY sam foobar 
+LEAVE IT selina 
+WHO'S THERE 
+PUT KEY selina foobar 
+ROTATE THE selina 
+ENTER INSIDE selina 
+CHANGE THEM selina key1 key2 
+PUT KEY todd POLICE_SECRET_KEY 
+ROTATE THE todd 
+ENTER INSIDE sam 
+ENTER INSIDE todd 
+WHO'S THERE 
+PUT KEY sam key2 
+ROTATE THE sam 
+ENTER INSIDE sam 
+PUT KEY tom tom tom 
+WHO'S THERE 
+LEAVE IT sam 
+LEAVE IT selina 
+CHANGE THEM selina key3 
+WHO'S THERE 
+PUT KEY pat key3 
+ROTATE THE pat 
+ENTER INSIDE pat 
+WHO'S THERE 
+PUT KEY sally foobar 
+ROTATE THE sally 
+PUT KEY harry key1 
+ENTER INSIDE sally 
+ROTATE THE harry 
+ENTER INSIDE harry 
+WHO'S THERE 
+PUT KEY selina key3 
+ROTATE THE selina 
+ENTER INSIDE selina 
+LEAVE IT selina 
+ROTATE THE selina 
+ENTER INSIDE selina 
+WHO'S THERE 
+LEAVE IT officer 
+LEAVE IT selina 
+LEAVE IT sam 
+LEAVE IT todd 
+LEAVE IT pat 
+LEAVE IT sam 
+ROTATE THE selina 
+ENTER INSIDE selina 
+WHO'S THERE 
+CHANGE THEM selina key1 
+PUT KEY selina foobar 
+ROTATE THE selina 
+PUT KEY jake key3 
+ROTATE THE selina 
+ENTER INSIDE selina 
+CHANGE THEM selina key1 key2 
+ROTATE THE selina 
+ROTATE THE jake 
+ENTER INSIDE selina 
+CHANGE THEM selina key1 key2 
+ 
+ENTER INSIDE jake 
+CHANGE THEM jake key1 key2 
+LEAVE IT jake 
+ROTATE THE jake 
+ENTER INSIDE jake 
+WHO'S THERE 
